@@ -47,7 +47,7 @@ if ! command -v aws &> /dev/null; then
 fi
 
 # Check if the AWS CLI is configured
-if [! -d ~/.aws ]; then
+if [ ! -d ~/.aws ]; then
     echo "AWS CLI is not configured. Please configure it using 'aws configure' and try again."
     exit 1
 fi
