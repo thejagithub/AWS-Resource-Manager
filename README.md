@@ -2,6 +2,7 @@
 
 ![Bash](https://img.shields.io/badge/Shell-Bash-lightgrey?logo=gnubash)
 ![AWS](https://img.shields.io/badge/AWS-CLI-orange?logo=amazonaws)
+![Ubuntu](https://img.shields.io/badge/Ubuntu-%23E95420?style=flat-square&logo=ubuntu&logoColor=white)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 ![Status](https://img.shields.io/badge/status-Active-brightgreen)
 
