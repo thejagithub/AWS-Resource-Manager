@@ -55,48 +55,63 @@ fi
 # Execute the AWS CLI command to list the resources based on the service name
 case $2 in
     ec2)
+        echo "Listing EC2 instances in region $1..."
         aws ec2 describe-instances --region $1 
         ;;
     s3)
+        echo "Listing S3 buckets in region $1..."
         aws s3api list-buckets --region $1 
         ;;
     iam)
+        echo "Listing IAM users in region $1..."
         aws iam list-users --region $1 
         ;;
     lambda)
+        echo "Listing Lambda functions in region $1..."
         aws lambda list-functions --region $1 
         ;;
     rds)
+        echo "Listing RDS instances in region $1..."
         aws rds describe-db-instances --region $1 
         ;;
     dynamodb)
+        echo "Listing DynamoDB tables in region $1..."
         aws dynamodb list-tables --region $1 
         ;;
     cloudformation)
+        echo "Listing CloudFormation stacks in region $1..."
         aws cloudformation list-stacks --region $1 
         ;;
     cloudwatch)
+        echo "Listing CloudWatch metrics in region $1..."
         aws cloudwatch list-metrics --region $1 
         ;;
     route53)
+        echo "Listing Route53 hosted zones in region $1..."
         aws route53 list-hosted-zones --region $1 
         ;;
     vpc)
+        echo "Listing VPCs in region $1..."
         aws ec2 describe-vpcs --region $1 
         ;;
     elb)
+        echo "Listing ELB load balancers in region $1..."
         aws elbv2 describe-load-balancers --region $1 
         ;;
     sns)
+        echo "Listing SNS topics in region $1..."
         aws sns list-topics --region $1 
         ;;
     sqs)
+        echo "Listing SQS queues in region $1..."
         aws sqs list-queues --region $1 
         ;;
     cloudtrail)
+        echo "Listing CloudTrail trails in region $1..."
         aws cloudtrail describe-trails --region $1 
         ;;
     cloudfront)
+        echo "Listing CloudFront distributions in region $1..."
         aws cloudfront list-distributions --region $1 
         ;;
     *)
