@@ -1,4 +1,4 @@
-# AWS-Resource-Manager
+# 🚀 AWS-Resource-Manager
 
 ![Bash](https://img.shields.io/badge/Shell-Bash-lightgrey?logo=gnubash)
 ![AWS](https://img.shields.io/badge/AWS-CLI-orange?logo=amazonaws)
