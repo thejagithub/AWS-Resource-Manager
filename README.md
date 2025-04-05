@@ -50,16 +50,20 @@ Perfect for quick audits, monitoring, or learning how AWS CLI works.
 - CloudFront
 
 ### 📌 Syntax
-```bash
+
 ./aws_resource.sh <region> <service_name>
 
-🧪 Examples
+### 🧪 Examples
 ./aws_resource.sh ap-south-1 ec2
+
 ./aws_resource.sh us-east-1 s3
 
 ## 📸 Example Output
 
-![Example Output](example-output.png)
+![Screenshot 2025-04-05 104147](https://github.com/user-attachments/assets/8d8dcaf9-df28-49ca-9996-8ffc80a77190)
+
+![Screenshot 2025-04-05 104224](https://github.com/user-attachments/assets/0f86c97a-4ec1-44bd-85b7-3eb3bb386ca1)
+
 
 
 
