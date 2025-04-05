@@ -5,7 +5,7 @@
 ![License](https://img.shields.io/badge/license-MIT-blue)
 ![Status](https://img.shields.io/badge/status-Active-brightgreen)
 
-Bash script to list AWS resources using AWS CLI for quick audits and region-based inventory checks.
+**Bash script to list AWS resources using AWS CLI for quick audits and region-based inventory checks.**
 
 
 
@@ -18,9 +18,9 @@ Perfect for quick audits, monitoring, or learning how AWS CLI works.
 
 ## 📜 Features
 
-- Lists AWS services like EC2, S3, IAM, Lambda, and more.
-- Accepts region and service name as input.
-- Lightweight, fast, and customizable.
+- **Lists AWS services like EC2, S3, IAM, Lambda, and more.**
+- **Accepts region and service name as input.**
+- **Lightweight, fast, and customizable.**
 
 ---
 
